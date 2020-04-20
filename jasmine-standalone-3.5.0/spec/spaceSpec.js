@@ -31,8 +31,6 @@ describe('.price adds daily price', function() {
 
 describe('.availability', function() {
     it('allows landlord to give dates when space is available') {
-        let space = new Space();
-        space.addAvailibility(Date(02, 05, 2020));
-        expect(space.availableDate).toBe(Date(02,05,2020));
+
     }
 })
