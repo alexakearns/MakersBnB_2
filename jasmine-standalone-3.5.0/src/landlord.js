@@ -1,6 +1,6 @@
-function Landlord() {
+function Landlord(name) {
   this.spaces = []
-  this.username = "Tom"
+  this.username = name
 }
 
 Landlord.prototype.listSpace = function(space) {

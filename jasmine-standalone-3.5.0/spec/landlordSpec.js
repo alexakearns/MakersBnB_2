@@ -20,4 +20,9 @@ describe('Landlord', function() {
     expect(landlord.username).toEqual("Tom")
   })
 
+  it ("can have a different username", function() {
+    let landlord2 = new Landlord("Sam")
+    expect(landlord2.username).toEqual("Sam")
+  })
+
 })
