@@ -56,4 +56,12 @@ I would like to be able provide a name, description, and price per night for my 
 As a user,
 So that others know when my space is available,
 I would like to be able to offer a range of dates where the space is available.
+
+As a user,
+So that I can hire a space,
+I would like to be able to request to hire a space for one night.
+
+As a user,
+So that I can confirm a space to a renter,
+I would like to be able to confirm a request to hire my space.
 ```
