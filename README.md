@@ -41,35 +41,35 @@
 ```
 User stories
 
-As a user,
+As a landlord
 So others can see my space,
 I would like to be able to list a new space.
 
-As a user,
+As a landlord,
 So others can see all my spaces,
 I would like to be able to list multiple spaces.
 
-As a user,
+As a landlord,
 So that others can find out about my space,
 I would like to be able provide a name, description, and price per night for my space.
 
-As a user,
+As a landlord,
 So that others know when my space is available,
 I would like to be able to offer a range of dates where the space is available.
 
-As a user,
+As a renter,
 So that I can hire a space,
 I would like to be able to request to hire a space for one night.
 
-As a user,
+As a landlord,
 So that I can confirm a space to a renter,
 I would like to be able to confirm a request to hire my space.
 
-As a user,
+As a landlord,
 So that my space does not become double booked,
 Spaces that have already been booked should not be available for other users to book.
 
-As a user,
+As a landlord,
 So that I don't miss out on business if a customer cancels,
 Until a user has confirmed a booking request, that space should remain available to other users.
 ```
