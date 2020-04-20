@@ -52,4 +52,8 @@ I would like to be able to list multiple spaces.
 As a user,
 So that others can find out about my space,
 I would like to be able provide a name, description, and price per night for my space.
+
+As a user,
+So that others know when my space is available,
+I would like to be able to offer a range of dates where the space is available.
 ```
