@@ -8,4 +8,5 @@ describe('Booking', function() {
   it('it has a reference', function() {
     expect(booking.reference).toEqual('reference')
   })
+
 })
