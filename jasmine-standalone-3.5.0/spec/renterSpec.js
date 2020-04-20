@@ -19,4 +19,10 @@ describe('Renter', function(){
         expect (renter.isValidDate("02/03/1991")).toEqual (true)   
     }); 
 
+    it ('checks users gender choice', function() {
+        renter.addGender ("Male")
+        expect (renter.gender).toEqual ("Male")  
+    }); 
+
+
 })

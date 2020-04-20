@@ -1,6 +1,7 @@
 function Renter (){
     this.name;
     this.dob;
+    this.gender;
 }
 
 Renter.prototype.addName = function(name){
@@ -10,6 +11,10 @@ Renter.prototype.addName = function(name){
 Renter.prototype.addDob = function(dob){
     if (this.isValidDate (dob)) {
     this.dob = dob;}
+}
+
+Renter.prototype.addGender = function(gender){
+    this.gender = gender
 }
 
 Renter.prototype.isValidDate = function(dateString)
@@ -32,3 +37,7 @@ Renter.prototype.isValidDate = function(dateString)
 
     return day > 0 && day <= monthLength[month - 1];
 };
+
+Renter.prototype.makeBooking = function (bookingOject){
+    // We'll allow the user to create a booking oject here
+}
