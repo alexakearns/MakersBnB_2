@@ -64,4 +64,8 @@ I would like to be able to request to hire a space for one night.
 As a user,
 So that I can confirm a space to a renter,
 I would like to be able to confirm a request to hire my space.
+
+As a user,
+So that my space does not become double booked,
+Spaces that have already been booked should not be available for other users to book.
 ```
