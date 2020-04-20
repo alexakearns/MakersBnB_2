@@ -16,4 +16,8 @@ describe('Landlord', function() {
     expect(landlord.spaces[0]).toBeInstanceOf(Space)
   })
 
+  it ("has username", function() {
+    expect(landlord.username).toEqual("Tom")
+  })
+
 })
