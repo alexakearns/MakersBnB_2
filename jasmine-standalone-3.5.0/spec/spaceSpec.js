@@ -20,3 +20,11 @@ describe('.description adds a description', function() {
     })
 
 })
+
+describe('.price adds daily price', function() {
+    it('returns price per day', function() {
+        let space = new Space();
+        space.addDailyPrice(100);
+        expect(space.dailyPrice).toBe(100);
+    })
+})
