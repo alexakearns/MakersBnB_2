@@ -37,9 +37,10 @@
 - A ‘chat’ functionality once a space has been booked, allowing users whose space-booking request has been confirmed to chat with the user that owns that space
 - Basic payment implementation though Stripe.
 
-## User stories
-
+## Headline User Stories
 ```
+User stories
+
 As a user,
 So others can see my space,
 I would like to be able to list a new space.
