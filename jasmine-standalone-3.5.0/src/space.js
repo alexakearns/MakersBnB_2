@@ -3,6 +3,7 @@
 function Space () {
     this.name;
     this.description;
+    this.dailyPrice;
 }
 
 Space.prototype.addName = function(name) {
@@ -15,4 +16,8 @@ Space.prototype.addDescription = function(string) {
 
 Space.prototype.addDailyPrice = function(price) {
     this.dailyPrice = price;
+}
+
+Space.prototype.addAvailability = function(date) {
+
 }
