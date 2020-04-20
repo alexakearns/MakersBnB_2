@@ -48,4 +48,8 @@ I would like to be able to list a new space.
 As a user,
 So others can see all my spaces,
 I would like to be able to list multiple spaces.
+
+As a user,
+So that others can find out about my space,
+I would like to be able provide a name, description, and price per night for my space.
 ```
