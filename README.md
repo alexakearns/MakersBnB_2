@@ -68,4 +68,8 @@ I would like to be able to confirm a request to hire my space.
 As a user,
 So that my space does not become double booked,
 Spaces that have already been booked should not be available for other users to book.
+
+As a user,
+So that I don't miss out on business if a customer cancels,
+Until a user has confirmed a booking request, that space should remain available to other users.
 ```
