@@ -11,4 +11,8 @@ describe('Space', function() {
         expect(space.name).toEqual(name);
     });
 
+    it('has a description', function() {
+        expect(space.description).toEqual(description);
+    })
+
 })
