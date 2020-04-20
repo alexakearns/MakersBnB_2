@@ -36,3 +36,8 @@
 - Their request to book a space is denied
 - A ‘chat’ functionality once a space has been booked, allowing users whose space-booking request has been confirmed to chat with the user that owns that space
 - Basic payment implementation though Stripe.
+
+## Headline User Stories
+```
+User stories
+```
