@@ -41,7 +41,7 @@
 ```
 User stories
 
-As a user,
+As a signed-up user,
 So others can see my space,
 I would like to be able to list a new space.
 
