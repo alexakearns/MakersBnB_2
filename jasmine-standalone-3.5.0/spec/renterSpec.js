@@ -14,4 +14,9 @@ describe('Renter', function(){
         expect (renter.dob).toEqual ("22/03/1993")
     }); 
 
+    it ('checks to see if the dob is valid', function() {
+        expect (renter.isValidDate("ds/03/1991")).toEqual (false)
+        expect (renter.isValidDate("02/03/1991")).toEqual (true)   
+    }); 
+
 })
