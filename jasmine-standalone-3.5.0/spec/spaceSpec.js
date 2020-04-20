@@ -1,18 +1,22 @@
 'use strict';
 
-describe('Space', function() {
+describe('Space', function () {
     var space;
+})
 
-    beforeEach(function(){
-        space = new Space;
+describe('.addName adds a name', function() {
+    it('returns the spaces name', function() {
+        let space = new Space();
+        space.addName('The Attic');
+        expect(space.name).toBe('The Attic');
     })
+})
 
-    it('has a name', function(){
-        expect(space.name).toEqual(name);
-    });
-
-    it('has a description', function() {
-        expect(space.description).toEqual(description);
+describe('.description adds a description', function() {
+    it('returns the description', function() {
+        let space = new Space();
+        space.addDescription('my creepy attic');
+        expect(space.description).toBe('my creepy attic');
     })
 
 })

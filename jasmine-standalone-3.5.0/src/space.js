@@ -1,6 +1,14 @@
 'use strict';
 
-function Space() {
+function Space () {
+  this.name;
+  this.description;
+}
+
+Space.prototype.addName = function(name) {
   this.name = name;
-  this.description = description;
+}
+
+Space.prototype.addDecription = function(string) {
+  this.description = string;
 }
