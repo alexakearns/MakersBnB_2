@@ -1,7 +1,7 @@
-function Renter (){
-    this.name;
-    this.dob;
-    this.gender;
+function Renter (name , dob, gender){
+    this.name = name;
+    this.dob = dob;
+    this.gender = gender;
 }
 
 Renter.prototype.addName = function(name){
