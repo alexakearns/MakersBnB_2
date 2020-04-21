@@ -4,7 +4,9 @@ $(document).ready(function() {
         e.preventDefault()
         $('#confirm').html('Booking Confirmed')
         var date = $('#date').val()
-            $('#confirmed-date').text('You are stay on ' + date)
+        var price = $('#price').val()
+        $('#confirmed-date').text('You are staying at the beach shack on ' + date)
+        $('#confirmed-price').text('Price: £250')
         
     })
 
