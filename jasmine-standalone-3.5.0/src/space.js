@@ -1,13 +1,14 @@
 'use strict';
 
-function Space () {
-    this.name;
-    this.description;
-    this.dailyPrice;
-    this.availabilityFrom;
-    this.availabilityTo;
+function Space (name, description, price, start, end) {
+    this.name = name;
+    this.description = description;
+    this.dailyPrice = price;
+    this.availabilityFrom = start;
+    this.availabilityTo = end;
 }
 
+/*
 Space.prototype.addName = function(name) {
     this.name = name;
 }
@@ -27,3 +28,4 @@ Space.prototype.addAvailabilityFrom = function(dateString) {
 Space.prototype.addAvailabilityTo = function(dateString) {
   this.availabilityTo = new Date(dateString).toDateString();
 }
+*/
