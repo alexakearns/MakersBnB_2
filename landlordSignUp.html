@@ -3,9 +3,10 @@
 
 <head>
 
-    <script src="jquery.js"></script>
+    <script src="jquery-3.5.0.js"></script>
     <script src="jasmine-standalone-3.5.0/src/landlord.js"></script>
-    <script src="landlordInterface.js"></script>
+    <script src="jasmine-standalone-3.5.0/src/space.js"></script>
+    <script src="jasmine-standalone-3.5.0/src/landlordSignUp.js"></script>
     <title>Landlord Sign-up</title>
 </head>
 <body>
@@ -13,16 +14,20 @@
 
     <form>
         <h3>Enter Space Name</h3>
-        <input type="text" name="space-name">
+        <input type="text" id = "space-ID">
         <h3>Enter Space Description</h3>
-        <input type="text" name="space-description">
+        <input type="text" ID="space-description">
         <h3>Daily Price</h3>
-        <input type="text" name="daily-price">
+        <input type="text" ID="daily-price">
         <h3>Available from</h3>
-        <input type="text" name="available-from">
+        <input type="text" ID="available-from">
         <h3>Available to</h3>
-        <input type="text" name="available-to">
+        <input type="text" ID="available-to">
     </form>
     <button id="submit-listing" type="submit">Submit Listing</button>
+
+    <p id = "this">
+
+    </p>
 </body>
 </html>
