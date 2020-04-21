@@ -6,7 +6,7 @@ describe('Booking', function() {
   let space
 
   beforeEach(function() {
-    booking = new Booking()
+    booking = new Booking('startdate', 'enddate')
     space = new Space
   })
 
@@ -24,4 +24,13 @@ describe('Booking', function() {
     booking.setSpace(space)
     expect(booking.space).toEqual(space)
   })
+
+  it('has a startdate', function() {
+    expect(booking.startDate).toEqual('startdate')
+  })
+
+  it('has a end date', function() {
+    expect(booking.endDate).toEqual('enddate')
+  })
 })
+
