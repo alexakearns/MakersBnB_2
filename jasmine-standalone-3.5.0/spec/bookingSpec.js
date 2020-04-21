@@ -11,12 +11,13 @@ describe('Booking', function() {
   })
 
   it('it has a reference', function() {
-    expect(booking.reference).toEqual('reference')
+    booking.reference = 'G3NRSFGPQEXFDCNE8J7U'
+    expect(booking.reference).toEqual('G3NRSFGPQEXFDCNE8J7U')
   })
 
 
 
-  it('has a Space', function() {
+  it('has a instance of the Space class', function() {
     expect(booking.setSpace(space)).toBeInstanceOf(Space)
   }) 
 
