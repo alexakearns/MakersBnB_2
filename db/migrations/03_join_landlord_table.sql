@@ -1,1 +1,1 @@
-CREATE TABLE landlord-space-join(id SERIAL PRIMARY KEY, space-id VARCHAR(20), landlord-id(20));
+CREATE TABLE landlordSpaceJoin(id SERIAL PRIMARY KEY, spaceID VARCHAR(20), landlordID(20));

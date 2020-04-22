@@ -1,1 +1,1 @@
-CREATE TABLE bookings(id SERIAL PRIMARY KEY, reference VARCHAR(60), landlord-space-id VARCHAR(20), renter-ID VARCHAR(20));
+CREATE TABLE bookings(id SERIAL PRIMARY KEY, reference VARCHAR(60), landlordSpaceId VARCHAR(20), renterID VARCHAR(20));
