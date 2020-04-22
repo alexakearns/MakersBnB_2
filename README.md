@@ -80,7 +80,7 @@ Until a user has confirmed a booking request, that space should remain available
 
 1) connect to psql;
 2) CREATE DATABASE Space;
-3) Connect to the database using the pqsl command \c spaces;
+3) Connect to the database using the pqsl command \c space;
 4) Run the query we have saved in the file 01_spaces_table.sql
 
 ```
