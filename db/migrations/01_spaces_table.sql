@@ -1,0 +1,1 @@
+CREATE TABLE spaces(id  SERIAL PRIMARY KEY, name VARCHAR(50), price VARCHAR(20), description VARCHAR(500), startDate VARCHAR(30), endDate VARCHAR(30), landlordID VARCHAR(30));

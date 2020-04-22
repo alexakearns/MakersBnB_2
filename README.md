@@ -76,9 +76,31 @@ Until a user has confirmed a booking request, that space should remain available
 
 ## To Set up database 
 ```
+# spaces database
 
-1) CREATE DATABASE Space;
+1) connect to psql;
+2) CREATE DATABASE Space;
+3) Connect to the database using the pqsl command \c spaces;
+4) Run the query we have saved in the file 01_spaces_table.sql
 
-2) CREATE TABLE spaces(id  SERIAL PRIMARY KEY, name VARCHAR(50), price VARCHAR(20), description VARCHAR(500), startDate VARCHAR(30), endDate VARCHAR(30), landlordID VARCHAR(30));
+```
+# booking table
+
+1) Run the query we have saves in the file 02_bookings_table.sql
+
+```
+# join-landlord
+
+1) Run the query we have saves in the file 03_join_landlord_table.sql
+
+```
+# landlord
+
+1) Run the query we have saves in the file 04_landlord_table.sql
+
+```
+# renter
+
+1) Run the query we have saves in the file 05_renter_table.sql
 
 ```

@@ -1,0 +1,1 @@
+CREATE TABLE bookings(id SERIAL PRIMARY KEY, reference VARCHAR(60), landlord-space-id VARCHAR(20), renter-ID VARCHAR(20)); For Renter table CREATE TABLE renter(id SERIAL PRIMARY KEY, name VARCHAR(50));
