@@ -104,3 +104,34 @@ Until a user has confirmed a booking request, that space should remain available
 1) Run the query we have saves in the file 05_renter_table.sql
 
 ```
+
+## To Set up test database 
+```
+# spaces database
+
+1) connect to psql;
+2) CREATE DATABASE space_test;
+3) Connect to the database using the pqsl command \c space_test;
+4) Run the query we have saved in the file 01_spaces_table.sql
+
+```
+# booking test table
+
+1) Run the query we have saves in the file 02_bookings_table.sql
+
+```
+# join-landlord
+
+1) Run the query we have saves in the file 03_join_landlord_table.sql
+
+```
+# landlord test
+
+1) Run the query we have saves in the file 04_landlord_table.sql
+
+```
+# renter test
+
+1) Run the query we have saves in the file 05_renter_table.sql
+
+```
