@@ -1,6 +1,3 @@
-script:
-  - bundle exec rspec
-
   language: node_js
 node_js:
   - 12.16.2
