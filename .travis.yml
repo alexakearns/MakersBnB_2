@@ -1,0 +1,17 @@
+script:
+  - bundle exec rspec
+
+  language: node_js
+node_js:
+  - lts/*
+
+  services:
+  - postgresql
+
+  before_script:
+  - psql -U postgres -c 'CREATE DATABASE Space'
+  - psql -U postgres -d Space -f db/migrations/01_spaces_table.sql
+  - psql -U postgres -d Space -f db/migrations/02_bookings_table.sql
+  - psql -U postgres -d Space -f db/migrations/03_join_landlord_table.sql
+  - psql -U postgres -d Space -f db/migrations/04_landlord_table.sql
+  - psql -U postgres -d Space -f db/migrations/05_renter_table.sql
