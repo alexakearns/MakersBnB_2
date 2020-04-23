@@ -6,13 +6,12 @@ node_js:
   - postgresql
 
   before_script:
-  # - "npm i -g jasmine-node"
-  - psql -U postgres -c 'CREATE DATABASE Space'
-  - psql -U postgres -d Space -f db/migrations/01_spaces_table.sql
-  - psql -U postgres -d Space -f db/migrations/02_bookings_table.sql
-  - psql -U postgres -d Space -f db/migrations/03_join_landlord_table.sql
-  - psql -U postgres -d Space -f db/migrations/04_landlord_table.sql
-  - psql -U postgres -d Space -f db/migrations/05_renter_table.sql
+  - psql -U postgres -c 'CREATE DATABASE space'
+  - psql -U postgres -d space -f db/migrations/01_spaces_table.sql
+  - psql -U postgres -d space -f db/migrations/02_bookings_table.sql
+  - psql -U postgres -d space -f db/migrations/03_join_landlord_table.sql
+  - psql -U postgres -d space -f db/migrations/04_landlord_table.sql
+  - psql -U postgres -d space -f db/migrations/05_renter_table.sql
 
   script:
   - npm install -g jasmine
