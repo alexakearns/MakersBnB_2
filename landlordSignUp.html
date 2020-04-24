@@ -8,10 +8,17 @@
     <script src="jasmine-standalone-3.5.0/src/space.js"></script>
     <script src="landlordSignUp.js"></script>
     <title>Landlord Sign-up</title>
+    <link rel="stylesheet" href="landlordSignup.css">
 </head>
+
+
 <body>
+    <a href="index.html"><h1 class="banner">Makers bnb</h1></a>
+    
+    <div class="info">
     <h2 id="welcome">Welcome Landlord!</h2>
 
+    
     <form>
         <h3>Enter Space Name</h3>
         <input type="text" id = "space-ID">
@@ -24,10 +31,13 @@
         <h3>Available to</h3>
         <input type="text" ID="available-to">
     </form>
+
+
+
     <button id="submit-listing" type="submit">Submit Listing</button>
 
     <h3 id = "Listing"></h3>
-    <ul>
+    <ul style="list-style-type:none;">
         <li id="space"></li>
         <li id="spacedec"></li>
         <li id="dailyP"></li>
@@ -37,5 +47,6 @@
 
     <button id="confirm-request" type="submit">Confirm Listing</button>
     <p id="request-confirmed"></p></p>
+</div>
 </body>
 </html>

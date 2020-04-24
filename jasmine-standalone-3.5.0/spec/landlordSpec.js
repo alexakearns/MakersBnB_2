@@ -10,7 +10,6 @@ describe('Landlord', function() {
     space = new Space();
   })
 
-
   it ( "Can list a space", function() {
     landlord.listSpace(space)
     expect(landlord.spaces[0]).toBeInstanceOf(Space)

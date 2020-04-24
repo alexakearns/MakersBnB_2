@@ -9,6 +9,8 @@ function Space (name, description, price, start, end) {
 }
 
 /*
+        -- Future tests if needed -- 
+        
 Space.prototype.addName = function(name) {
     this.name = name;
 }
