@@ -1,0 +1,50 @@
+@font-face {
+    src: url(fonts/BebasNeue-Bold.otf);
+    font-family: title; 
+} 
+
+
+.banner {
+    position: absolute; top:0px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    font-family: title;
+    font-size: 80px;
+    color: white;
+    margin:0px;
+    padding-top: 15px;
+    padding-left: 30px;
+   
+   
+}
+
+.enter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    padding-top: 200px;
+    background: transparent;
+    
+}
+
+button {
+    display: inline-block;
+    margin: 20px;
+    font-size: 40px;
+    color: black;
+    font-family: title;
+    padding: 43px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+
+}
+
+
+body {
+    background-image: url(images/field.jpg);;
+    margin: 0px;
+    }
+
