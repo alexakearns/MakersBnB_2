@@ -36,49 +36,5 @@ describe('Space', function () {
                 expect(space.availabilityTo).toBe('Tue Oct 14 2014');
             })
         })
-        
-        //will setup test database
-        // describe('adds all the info to the database', function() {
-        //     it('sends info the database', function() {
-        //         expect(space.updateDatabase()).toEqual('hello')
-        //     })
-        // })
 
-/*
-    describe('.addName adds a name', function() {
-        it('returns the spaces name', function() {
-            space.addName('The Shed')
-            expect(space.name).toBe('The Shed');
-        })
-    })
-
-    describe('.description adds a description', function() {
-        it('returns the description', function() {
-            space.addDescription('The fun shed at the bottom of the garden')
-            expect(space.description).toBe('The fun shed at the bottom of the garden');
-        })
-
-    })
-
-    describe('.price adds daily price', function() {
-        it('returns price per day', function() {
-            space.addDailyPrice(100);
-            expect(space.dailyPrice).toBe(100);
-        })
-    })
-
-    describe('.availabilityfrom', function() {
-        it('allows landlord to give dates when space is available', function() {
-            space.addAvailabilityFrom('October 13, 2014');
-            expect(space.availabilityFrom).toBe('Mon Oct 13 2014');
-        })
-    })
-
-    describe('.availabilityTo', function() {
-        it('allows landlord to give dates when space is available', function() {
-            space.addAvailabilityTo('October 14, 2014');
-            expect(space.availabilityTo).toBe('Tue Oct 14 2014');
-        })
-    })
-*/
 })
