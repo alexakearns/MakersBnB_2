@@ -36,7 +36,13 @@ describe('Space', function () {
                 expect(space.availabilityTo).toBe('Tue Oct 14 2014');
             })
         })
-    })
+        
+        //will setup test database
+        // describe('adds all the info to the database', function() {
+        //     it('sends info the database', function() {
+        //         expect(space.updateDatabase()).toEqual('hello')
+        //     })
+        // })
 
 /*
     describe('.addName adds a name', function() {
@@ -74,6 +80,5 @@ describe('Space', function () {
             expect(space.availabilityTo).toBe('Tue Oct 14 2014');
         })
     })
-
-})
 */
+})
