@@ -23,6 +23,4 @@ describe('Renter', function(){
         renter.addGender ("Male")
         expect (renter.gender).toEqual ("Male")  
     }); 
-
-
 })

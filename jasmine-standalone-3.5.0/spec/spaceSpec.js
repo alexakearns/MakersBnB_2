@@ -38,6 +38,8 @@ describe('Space', function () {
     })
 
 /*
+                    --Future tests if needed --
+
     describe('.addName adds a name', function() {
         it('returns the spaces name', function() {
             space.addName('The Shed')
