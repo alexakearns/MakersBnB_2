@@ -1,11 +1,11 @@
-'use strict';
+"use strict";
 
-function Space (name, description, price, start, end) {
-    this.name = name;
-    this.description = description;
-    this.dailyPrice = price;
-    this.availabilityFrom = start;
-    this.availabilityTo = end;
+function Space(name, description, price, start, end) {
+  this.name = name;
+  this.description = description;
+  this.dailyPrice = price;
+  this.availabilityFrom = start;
+  this.availabilityTo = end;
 }
 
 /*

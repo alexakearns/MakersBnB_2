@@ -1,46 +1,40 @@
-
 @font-face {
-    src: url(fonts/BebasNeue-Bold.otf);
-    font-family: title; 
+  src: url(fonts/BebasNeue-Bold.otf);
+  font-family: title; 
 } 
 
-
 body {
-    background-image: url(images/field.jpg);;
-    margin: 0px;
-    }
+  background-image: url(images/field.jpg);;
+  margin: 0px;
+}
 
-    .banner {
-        position: absolute; top:0px;
-        width: 100%;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
-        font-family: title;
-        font-size: 80px;
-        color: white;
-        margin:0px;
-        padding-top: 15px;
-        padding-left: 10px;
-       
-       
-    }
+.banner {
+  position: absolute; top:0px;
+  width: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+  font-family: title;
+  font-size: 80px;
+  color: white;
+  margin:0px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
 
-    .info{
-        display: inline-block;
-        font-family: title;
-        margin-left: 25%;
-        margin-right: 25%;
-        font-size: 30px;
-        width: 50%;
-        text-align: center;
-        background: rgba(255, 255, 255, 0.4);
-       
-    }
+.info{
+  display: inline-block;
+  font-family: title;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  
+}
 
-    h1 {
-        font-family: title;
-        padding-top: 100px;
-        font-size: 60px;
-        }
-
-   
+h1 {
+  font-family: title;
+  padding-top: 100px;
+  font-size: 60px;
+  }
